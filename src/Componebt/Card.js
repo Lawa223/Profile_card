@@ -1,12 +1,10 @@
 import Button from "./Button";
-const biolaImg1 = "./images/Abiola.jpg"
-const biolaImg2 = "./images/img1.jpg"
 
 
 
 const students = [
     {
-        image: biolaImg1,
+        image: "./images/Abiola.jpg",
         title : "LAWAL ABIOLA",
         email : "lawalabiola411@gmail.com",
         Phone  : "08068411741",
@@ -35,7 +33,7 @@ const students = [
         ],
     },
     {
-        image: biolaImg2,
+        image: "./images/img1.jpg",
         title : "oyin",
         email : "oyin@gmail.com",
         Phone  : "08068411741",
@@ -64,7 +62,7 @@ const students = [
         ],
     },
     {
-        image: biolaImg2,
+        image: "./images/img1.jpg",
         title : "wale",
         email : "wale@gmail.com",
         Phone  : "08068411741",
@@ -93,7 +91,7 @@ const students = [
         ],
     },
     {
-        image: biolaImg1,
+        image: "./images/Abiola.jpg",
         title : "LAWAL ABIOLA",
         email : "lawalabiola411@gmail.com",
         Phone  : "08068411741",
@@ -122,7 +120,7 @@ const students = [
         ],
     },
     {
-        image: biolaImg2,
+        image: "./images/img1.jpg",
         title : "chucks",
         email : "chucks@gmail.com",
         Phone : "08068411741",
@@ -157,7 +155,7 @@ const students = [
 function Card(){
     return <>
       {students.map((student)=> <div className="card">
-        <img src={student.image} alt="myImage"/>
+        <img src={`${process.env.PUBLIC_URL}/${student.image}`} alt="myImage"/>
     
        <h1 className="abiola">{student.title} ❤</h1>
        <p className="paragraph">Full-Stack web developer and Software Engineer at Boldlinks T.Solution.When not coding or preparing for course,i like to play Dice games,to cook (and eat),or to just enjoy the Nigeria sun at the beach.</p>
