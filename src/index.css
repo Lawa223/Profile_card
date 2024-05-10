@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card{
+  border: 3px solid gray;
+  height: 420px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 2px 3px 5px;
+  margin: 20px;
+  padding: auto;
+  display: inline-block;
+  
+}
+.card img{
+  height: 160px;
+  width: 300px;
+}
+.para{
+  margin-top: 20px;
+  color: blue;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+}
+button{
+  display: inline-block;
+  margin-top: 40px;
+  margin: 0 1px;
+  height: 40px;
+  border-radius: 50px;
+  color: purple;
+  font-weight: bold;
+  box-shadow: 1px 2px 3px gray;
+}
+.abiola{
+  color: purple;
+  text-align: center;
+  margin-top: -5px;
+}
+.num{
+  color: green;
+  font-size: 20px;
+  margin-top: -5;
+}
+.paragraph{
+  font-size: 10px;
+  margin-top: -10px;
+  text-align: center;
+  font-weight: bold;
+}
