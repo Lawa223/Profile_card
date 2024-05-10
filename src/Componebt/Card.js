@@ -154,7 +154,7 @@ const students = [
 
 function Card(){
     return <>
-      {students.map((student)=> <div className="card">
+      {students.map((student)=> <div className="card" key={student.title}>
         <img src={`${process.env.PUBLIC_URL}/${student.image}`} alt="myImage"/>
     
        <h1 className="abiola">{student.title} ❤</h1>
