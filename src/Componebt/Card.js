@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const students = [
     {
-        image: "/images/Abiola.jpg",
+        image: "./images/Abiola.jpg",
         title : "LAWAL ABIOLA",
         email : "lawalabiola411@gmail.com",
         Phone  : "08068411741",
@@ -33,7 +33,7 @@ const students = [
         ],
     },
     {
-        image: "/images/img1.jpg",
+        image: "./images/img1.jpg",
         title : "oyin",
         email : "oyin@gmail.com",
         Phone  : "08068411741",
@@ -62,7 +62,7 @@ const students = [
         ],
     },
     {
-        image: "/images/img1.jpg",
+        image: "./images/img1.jpg",
         title : "wale",
         email : "wale@gmail.com",
         Phone  : "08068411741",
@@ -91,7 +91,7 @@ const students = [
         ],
     },
     {
-        image: "/images/Abiola.jpg",
+        image: "./images/Abiola.jpg",
         title : "LAWAL ABIOLA",
         email : "lawalabiola411@gmail.com",
         Phone  : "08068411741",
@@ -120,7 +120,7 @@ const students = [
         ],
     },
     {
-        image: "/images/img1.jpg",
+        image: "./images/img1.jpg",
         title : "chucks",
         email : "chucks@gmail.com",
         Phone : "08068411741",
