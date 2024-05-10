@@ -1,10 +1,12 @@
 import Button from "./Button";
+const biolaImg1 = "./images/Abiola.jpg"
+const biolaImg2 = "./images/img1.jpg"
 
 
 
 const students = [
     {
-        image: "./images/Abiola.jpg",
+        image: biolaImg1,
         title : "LAWAL ABIOLA",
         email : "lawalabiola411@gmail.com",
         Phone  : "08068411741",
@@ -33,7 +35,7 @@ const students = [
         ],
     },
     {
-        image: "./images/img1.jpg",
+        image: biolaImg2,
         title : "oyin",
         email : "oyin@gmail.com",
         Phone  : "08068411741",
@@ -62,7 +64,7 @@ const students = [
         ],
     },
     {
-        image: "./images/img1.jpg",
+        image: biolaImg2,
         title : "wale",
         email : "wale@gmail.com",
         Phone  : "08068411741",
@@ -91,7 +93,7 @@ const students = [
         ],
     },
     {
-        image: "./images/Abiola.jpg",
+        image: biolaImg1,
         title : "LAWAL ABIOLA",
         email : "lawalabiola411@gmail.com",
         Phone  : "08068411741",
@@ -120,7 +122,7 @@ const students = [
         ],
     },
     {
-        image: "./images/img1.jpg",
+        image: biolaImg2,
         title : "chucks",
         email : "chucks@gmail.com",
         Phone : "08068411741",
